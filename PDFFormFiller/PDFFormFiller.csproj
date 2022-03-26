@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageId>MoleculeSoftware.Packages.PDFFormFiller</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Joshua H. Santiago</Authors>
+    <Company>Molecule Software Solutions</Company>
+    <Product>PDFFormFiller</Product>
+    <Description>Small library that assists with filling PDF forms for open-source software packages. This package utilizes iText7</Description>
+    <Copyright>Copyright 2022 - Molecule Software Systems</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="itext7" Version="7.2.1" />
+  </ItemGroup>
+
+</Project>
